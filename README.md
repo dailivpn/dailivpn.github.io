@@ -1,4 +1,4 @@
-# 代理VPN - 8月3日22.6M/S|免费Shadowrocket/V2ray/SSR/Clash节点订阅分享  更新时间 2025-08-03 11:05:31
+# 代理VPN - 8月9日19.8M/S|免费SSR/Shadowrocket/V2ray/Clash节点订阅分享  更新时间 2025-08-09 10:58:09
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://dailivpn.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://dailivpn.github.io/uploads/2025/08/0-20250803.yaml
-- https://dailivpn.github.io/uploads/2025/08/1-20250803.yaml
-- https://dailivpn.github.io/uploads/2025/08/2-20250803.yaml
-- https://dailivpn.github.io/uploads/2025/08/3-20250803.yaml
-- https://dailivpn.github.io/uploads/2025/08/4-20250803.yaml
+- https://dailivpn.github.io/uploads/2025/08/0-20250809.yaml
+- https://dailivpn.github.io/uploads/2025/08/1-20250809.yaml
+- https://dailivpn.github.io/uploads/2025/08/2-20250809.yaml
+- https://dailivpn.github.io/uploads/2025/08/3-20250809.yaml
+- https://dailivpn.github.io/uploads/2025/08/4-20250809.yaml
 
 ### V2ray订阅链接
 
-- https://dailivpn.github.io/uploads/2025/08/0-20250803.txt
-- https://dailivpn.github.io/uploads/2025/08/1-20250803.txt
-- https://dailivpn.github.io/uploads/2025/08/2-20250803.txt
-- https://dailivpn.github.io/uploads/2025/08/3-20250803.txt
-- https://dailivpn.github.io/uploads/2025/08/4-20250803.txt
+- https://dailivpn.github.io/uploads/2025/08/0-20250809.txt
+- https://dailivpn.github.io/uploads/2025/08/1-20250809.txt
+- https://dailivpn.github.io/uploads/2025/08/2-20250809.txt
+- https://dailivpn.github.io/uploads/2025/08/3-20250809.txt
+- https://dailivpn.github.io/uploads/2025/08/4-20250809.txt
 
 ### Sing-box订阅链接
 
-- https://dailivpn.github.io/uploads/2025/08/20250803.json
+- https://dailivpn.github.io/uploads/2025/08/20250809.json
 
 ## 更多clash节点订阅 ：
 
