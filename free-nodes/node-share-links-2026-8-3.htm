@@ -400,17 +400,18 @@ sudo systemctl </span><span><span class="hljs-built_in">enable</span></span><spa
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-8-2-free-vpn-node.htm">代理VPN - 8月2日22.8M/S|免费Trojan节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点订阅分享</a></p>
+        <p>下一个：<a href="/free-nodes/2026-8-4-free-vpn-node.htm">代理VPN - 8月4日18.1M/S|免费V2ray节点/Trojan节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享</a></p>
     </div>
 <h4>FAQ</h4>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
-    <div class="panel-body">
-        Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。<hr />    </div>
-</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 支持哪些内核？</h5></div>
     <div class="panel-body">
         PassWall2 支持多种代理内核，如 Xray、V2Ray、Sing-box、Trojan-go、Hysteria2 等。用户可在插件管理中切换所需内核，以获得不同协议与性能的支持。部分内核需手动下载并启用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
+    <div class="panel-body">
+        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 和 Nekoray 有何关系？</h5></div>
@@ -423,14 +424,14 @@ sudo systemctl </span><span><span class="hljs-built_in">enable</span></span><spa
         Sing-box 可以按域名设置分流规则，将不同流量发送到指定节点。结合策略组使用，可实现网页、视频和游戏流量精准分配，提高访问速度和网络稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 多路复用对高频连接的优势？</h5></div>
+    <div class="panel-body">
+        多路复用可让多个短连接共享同一通道，减少握手和加密开销，提高吞吐量。适合高频短连接场景，如即时通讯和游戏，保证流量快速、稳定传输。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>如何合理设置 Clash 的 proxy-group 实现自动切换？</h5></div>
     <div class="panel-body">
         创建包含多个节点的策略组（如 `url-test` 或 `fallback`），设置合适的检测 URL 与检测频率，启用延迟优先或可用性优先策略。这样客户端会自动选择延迟最低或可用节点，提升稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess AEAD 加密在高封锁网络的作用？</h5></div>
-    <div class="panel-body">
-        AEAD 加密可防止数据篡改和流量特征泄露，降低被封锁和 DPI 检测风险。保证节点长期可用，提高数据传输安全性和访问可靠性，优化用户科学上网体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Vmess 节点配置时常见错误有哪些？</h5></div>
@@ -438,19 +439,19 @@ sudo systemctl </span><span><span class="hljs-built_in">enable</span></span><spa
         常见错误包括端口号不匹配、UUID 错误、TLS 设置不正确或传输类型配置错误。这些都会导致连接失败。检查服务器配置与客户端参数一致性是解决问题的关键。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>VMess AEAD 加密在高封锁网络的作用？</h5></div>
+    <div class="panel-body">
+        AEAD 加密可防止数据篡改和流量特征泄露，降低被封锁和 DPI 检测风险。保证节点长期可用，提高数据传输安全性和访问可靠性，优化用户科学上网体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
+    <div class="panel-body">
+        Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekoray 的节点导入是否支持批量 URL？</h5></div>
     <div class="panel-body">
-        支持。Nekoray 可通过订阅 URL 批量导入节点，并定期更新。用户无需手动添加每个节点，保证节点列表始终最新，提高使用效率和便利性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 多路复用对高频连接的优势？</h5></div>
-    <div class="panel-body">
-        多路复用可让多个短连接共享同一通道，减少握手和加密开销，提高吞吐量。适合高频短连接场景，如即时通讯和游戏，保证流量快速、稳定传输。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
-    <div class="panel-body">
-        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。    </div>
+        支持。Nekoray 可通过订阅 URL 批量导入节点，并定期更新。用户无需手动添加每个节点，保证节点列表始终最新，提高使用效率和便利性。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -498,16 +499,16 @@ sudo systemctl </span><span><span class="hljs-built_in">enable</span></span><spa
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-7-23-free-vpn.htm" title="代理VPN - 7月23日20.6M/S|免费Clash节点/SSR节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点订阅分享">代理VPN - 7月23日20.6M/S|免费Clash节点/SSR节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-23-mianfei-vpn.htm" title="代理VPN - 6月23日22.7M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/Clash节点/V2ray节点节点订阅分享">代理VPN - 6月23日22.7M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/Clash节点/V2ray节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-22-free-vpn-node.htm" title="代理VPN - 7月22日22.6M/S|免费Clash节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点节点订阅分享">代理VPN - 7月22日22.6M/S|免费Clash节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-19-top-vpn.htm" title="代理VPN - 7月19日22.4M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点订阅分享">代理VPN - 7月19日22.4M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-4-free-vpn-node.htm" title="代理VPN - 8月4日18.1M/S|免费V2ray节点/Trojan节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享">代理VPN - 8月4日18.1M/S|免费V2ray节点/Trojan节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-6-12-node-share.htm" title="代理VPN - 6月12日18.6M/S|免费Clash节点/Shadowrocket节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点订阅分享">代理VPN - 6月12日18.6M/S|免费Clash节点/Shadowrocket节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-17-top-vpn.htm" title="代理VPN - 7月17日19M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Trojan节点/Clash节点节点订阅分享">代理VPN - 7月17日19M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Trojan节点/Clash节点节点订阅分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-6-15-vpn-github.htm" title="代理VPN - 6月15日22.2M/S|免费Singbox节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Trojan节点节点订阅分享">代理VPN - 6月15日22.2M/S|免费Singbox节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Trojan节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-6-26-vpn-node.htm" title="代理VPN - 6月26日22.8M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享">代理VPN - 6月26日22.8M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-13-free-vpn.htm" title="代理VPN - 7月13日21.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点节点订阅分享">代理VPN - 7月13日21.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-9-free-node-subscribe-links.htm" title="代理VPN - 7月9日19M/S|免费Trojan节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点订阅分享">代理VPN - 7月9日19M/S|免费Trojan节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-30-free-node-subscribe.htm" title="代理VPN - 7月30日22.7M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点节点订阅分享">代理VPN - 7月30日22.7M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-7-vpn-github.htm" title="代理VPN - 7月7日20.6M/S|免费Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Trojan节点节点订阅分享">代理VPN - 7月7日20.6M/S|免费Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Trojan节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-20-vpn-node.htm" title="代理VPN - 7月20日20.5M/S|免费Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点订阅分享">代理VPN - 7月20日20.5M/S|免费Trojan节点/Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/top-vpn-2026-7-29.htm" title="代理VPN - 7月29日21.5M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点节点订阅分享">代理VPN - 7月29日21.5M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点节点订阅分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-6-30-vpn-free.htm" title="代理VPN - 6月30日20.5M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享">代理VPN - 6月30日20.5M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-19-top-vpn.htm" title="代理VPN - 7月19日22.4M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点订阅分享">代理VPN - 7月19日22.4M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-7-11-mianfei-vpn.htm" title="代理VPN - 7月11日19.4M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享">代理VPN - 7月11日19.4M/S|免费Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -519,7 +520,7 @@ sudo systemctl </span><span><span class="hljs-built_in">enable</span></span><spa
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">10</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">31</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
